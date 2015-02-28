@@ -10,21 +10,19 @@ title: Blog | Yangzi He
       <div class="post">
         <h4>{{ post.title }}</h4>
         <p class="date">Posted on {{ post.date | date: "%b %-d, %Y" }}</p>
-
         <p>{{ post.content }}</p>
-
         <div class="tags-line">Tags:
-        {% if post.tags.size == 0 %}
-          <p class="no-tags">None</p>
-        {% else %}
-          {% for tag in post.tags %}
-            {% if forloop.last %}
-              <p class="tags">{{ tag }}</p>
-            {% else %}
-              <p class="tags">{{ tag }},</p>
-            {% endif %}
-          {% endfor %}
-        {% endif %}
+          {% if post.tags.size == 0 %}
+            <p class="no-tags">None</p>
+          {% else %}
+            {% for tag in post.tags %}
+              {% if forloop.last %}
+                <p class="tags">{{ tag }}</p>
+              {% else %}
+                <p class="tags">{{ tag }},</p>
+              {% endif %}
+            {% endfor %}
+          {% endif %}
         </div>
       </div>
     {% endfor %}

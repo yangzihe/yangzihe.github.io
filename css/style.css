@@ -2,9 +2,9 @@
     ------ Header ------
   =========================*/
 
-ul {
+nav ul {
     list-style-type: none;
-    margin-top: 50px;
+    margin-top: 16px;
     padding: 10px;
 }
 
@@ -123,6 +123,8 @@ h4 {
     margin-bottom: 0;
     color: #DC5B54;
 }
+
+
 .date {
     margin-top: 0;
     margin-bottom: 30px;
@@ -151,4 +153,18 @@ h4 {
 
 .tags::before {
     content: "#";
+}
+
+.post ul {
+    list-style-type: disc;
+    margin-top: 0;
+}
+
+.post p {
+    margin-bottom: 0;
+}
+
+.post {
+    margin-bottom: 50px;
+    padding-bottom: 15px;
 }
