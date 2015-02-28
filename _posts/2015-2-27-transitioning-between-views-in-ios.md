@@ -11,4 +11,5 @@ Watching tutorials on iOS development in Swift at the moment and just wanted to 
 
 ---
 Cool shortcuts:
-*   Cmd + Shft + O: Open a finder/alfred-like dialog that can take you anywhere.
+
+Cmd + Shft + O: Open a finder/alfred-like dialog that can take you anywhere.
