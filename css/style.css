@@ -1,4 +1,18 @@
 /*=========================
+    ------ Fonts ------
+  =========================*/
+
+@font-face {
+    font-family:BlackJack;
+    src: url('fonts/BLACKJAR.ttf')
+}
+
+@font-face {
+    font-family:Pier Sans;
+    src: url('fonts/pier.otf')
+}
+
+/*=========================
     ------ Header ------
   =========================*/
 
