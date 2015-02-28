@@ -4,12 +4,12 @@
 
 @font-face {
     font-family:BlackJack;
-    src: url('fonts/BLACKJAR.ttf')
+    src: url('fonts/BLACKJAR.TTF');
 }
 
 @font-face {
     font-family:Pier Sans;
-    src: url('fonts/pier.otf')
+    src: url('fonts/pier.otf');
 }
 
 /*=========================
