@@ -1,0 +1,154 @@
+/*=========================
+    ------ Header ------
+  =========================*/
+
+ul {
+    list-style-type: none;
+    margin-top: 50px;
+    padding: 10px;
+}
+
+li {
+    display: inline-block;
+}
+
+li a {
+    width: 10px;
+    padding: 0.8em;
+    font-family: "Pier Sans";
+}
+
+li a[href] {
+    color: #59323C;
+    transition: .2s all;
+}
+
+li a[href]:hover {
+    border-bottom: solid .2em #59323C;
+    border-width: 2px;
+}
+
+header ul li a[href] {
+    text-decoration: none;
+    border-bottom: solid .2em #EBE7E1;
+    border-width: 2px;
+    transition: .4s all;
+}
+
+header {
+    padding-top: 50px;
+    padding-bottom: 1px;
+    background-color: #EBE7E1;
+    width: 100%;
+}
+
+.header-bar{
+    background-color: #59323C;
+    height: 3px;
+}
+
+.container {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.name {
+    color: #59323C;
+    font-family: "BlackJack";
+    font-size: 60px;
+    margin: 0;
+
+}
+
+.small-text{
+    margin-top: 0;
+    font-size: 10px;
+}
+
+
+/*=========================
+    ------ Document ------
+  =========================*/
+
+body, html {
+    background-color: #DDDAD6;
+    margin: 0 0 40px 0;
+    padding: 0;
+}
+
+p {
+    color: #1A1A1A;
+    font-family: "Source Sans Pro";
+}
+
+p a {
+    font-family: "Source Sans Pro";
+    text-decoration: none;
+    color: #59323C;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+
+/*=========================
+    ------ Body ------
+  =========================*/
+
+
+.content-title {
+    font-family: "Source Sans Pro";
+    font-size: 35px;
+    font-weight: 400;
+    color: #59323C;
+    margin-bottom: 0;
+}
+
+.content-paragraph {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    width: 600px;
+}
+
+/*=========================
+    ------ Blog Posts ------
+  =========================*/
+
+h4 {
+    font-family: "Source Sans Pro";
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 0;
+    color: #DC5B54;
+}
+.date {
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-size: 12px;
+    color: #E09D6A;
+}
+
+.tags-line {
+    text-align: center;
+    font-family: "Source Sans Pro";
+    font-size: 11px;
+    color: #E09D6A;
+}
+
+.no-tags {
+    display: inline;
+    color: #E09D6A;
+}
+
+.tags {
+    font-size: 11px;
+    text-align: center;
+    display: inline;
+    color: #E09D6A;
+}
+
+.tags::before {
+    content: "#";
+}
