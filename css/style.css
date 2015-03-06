@@ -58,11 +58,6 @@ header {
     width: 100%;
 }
 
-.header-bar{
-    background-color: #59323C;
-    height: 3px;
-}
-
 .container {
     text-align: center;
     margin-right: auto;
