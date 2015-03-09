@@ -49,9 +49,8 @@ header ul li a[href] {
 .site-header {
     padding-top: 30px;
     padding-bottom: 1px;
-    background-image: url('/img/backtothesea.jpg');
+    background-image: url('/img/header-bg.jpg');
     background-size: 100% 100%;
-    /*background-position: 50% 50%;*/
     width: 100%;
     position: relative;
 }
