@@ -1,4 +1,6 @@
 ---
+layout: post-header
+excerpt: ""
 title: "On UILabels"
 tag: [Swift, iOS Development, Xcode]
 ---

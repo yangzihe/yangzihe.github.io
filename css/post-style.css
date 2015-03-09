@@ -3,7 +3,7 @@
   =========================*/
 
 @font-face {
-    font-family:BlackJack;
+    font-family: BlackJack;
     src: url('fonts/BLACKJAR.TTF');
 }
 
@@ -30,30 +30,27 @@ nav ul {
 }
 
 .site-navigation li a[href] {
-    /*color: #59323C;*/
     color: white;
     transition: .2s all;
 }
 
 .site-navigation li a[href]:hover {
-    /*border-bottom: solid .2em #59323C;*/
-    border-bottom: solid .2em #FFFFFF;
+    border-bottom: solid .2em white;
     border-width: 2px;
 }
 
 header ul li a[href] {
     text-decoration: none;
-    /*border-bottom: solid .2em #EBE7E1;*/
     border-bottom: solid .2em transparent;
     border-width: 2px;
     transition: .4s all;
 }
 
 .site-header {
-    padding-top: 30px;
+    padding-top: 20px;
     padding-bottom: 1px;
     background-image: url('/img/backtothesea.jpg');
-    background-size: auto 300%;
+    background-size: auto 500%;
     background-position: 50% 50%;
     width: 100%;
     position: relative;
@@ -63,30 +60,15 @@ header ul li a[href] {
     text-align: center;
     margin-right: auto;
     margin-left: auto;
-    position: relative;
     z-index: 200;
+    position: relative;
 }
 
 .name {
-    /*color: #59323C;*/
     color: white;
     font-family: "BlackJack";
     font-size: 60px;
     margin: 0;
-
-}
-
-.small-text{
-    margin-top: 0;
-    font-size: 10px;
-    color: white;
-    line-height: 1em;
-}
-
-.description {
-    font-size: 14px;
-    color: white;
-    margin-bottom: 5px;
 }
 
 .overlay{
@@ -95,16 +77,14 @@ header ul li a[href] {
     z-index: 100;
     height: 100%;
     width: 100%;
-    margin-top: -30px;
+    margin-top: -20px;
 }
-
 
 /*=========================
     ------ Document ------
   =========================*/
 
 body, html {
-    /*background-color: #DDDAD6;*/
     background-color: white;
     margin: 0 0 40px 0;
     padding: 0;
@@ -112,12 +92,12 @@ body, html {
 
 p {
     color: black;
-    font-family: "source sans pro";
+    font-family: "freight-text-pro";
     line-height: 1.5em;
 }
 
 p a {
-    font-family: "Source Sans Pro";
+    font-family: "freight-text-pro";
     text-decoration: none;
     color: black;
 }
@@ -127,50 +107,73 @@ p a:hover {
 }
 
 /*=========================
-    ------ Body ------
+    ------ Blog Posts ------
   =========================*/
 
+.wrapper {
+    margin-right: auto;
+    margin-left: auto;
+    width: 800px;
+}
 
-.content-title {
-    font-family: "Source Sans Pro";
-    font-size: 32px;
-    font-weight: 400;
+.post-title {
+    font-family: "jaf-bernino-sans";
+    letter-spacing: -0.02em;
+    font-size: 35px;
+    font-weight: 900;
+    margin-top: 30px;
+    margin-bottom: 0;
     color: black;
+    text-align: left;
+}
+
+.summary {
+    font-family: "jaf-bernino-sans";
+    letter-spacing: -0.02em;
+    font-size: 25px;
+    margin-top: -8px;
+    color: black;
+}
+
+.date {
+    font-family: "jaf-bernino-sans";
+    margin-top: 0px;
+    margin-bottom: 30px;
+    font-size: 14px;
+    color: black;
+    text-align: left;
+}
+
+.tags-line {
     text-align: center;
+    font-family: "Born";
+    font-size: 11px;
+    color: #9a8f8f;
+    margin-top: -10px;
+}
+
+.no-tags {
+    display: inline;
+    color: #9a8f8f;
+}
+
+.tags {
+    font-size: 11px;
+    text-align: center;
+    display: inline;
+    color: #9a8f8f;
+}
+
+.post ul {
+    list-style-type: disc;
+    margin-top: 0;
+}
+
+.post p {
     margin-bottom: 0;
 }
 
-.content-paragraph {
-    margin-left: auto;
-    margin-right: auto;
-    text-align: left;
-    width: 600px;
+.post {
+    margin-bottom: 50px;
+    padding-bottom: 15px;
 }
-
-.post-list span {
-    float: right;
-    font-size: 12px;
-    /*text-transform: uppercase;*/
-    vertical-align: -30px;
-}
-
-ul {
-    margin-top: 30px;
-}
-
-li {
-    font-family: "Source Sans Pro";
-    list-style-type: none;
-    margin: 10px 0 10px 0;
-}
-
-li a {
-    text-decoration: none;
-    color: black;
-}
-
-li a:hover {
-    text-decoration: underline;
-}
-
-
