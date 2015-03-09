@@ -1,6 +1,5 @@
 ---
 layout: post-header
-excerpt: ""
 title: "Margin vs. Padding"
 tags: [CSS, HTML]
 ---

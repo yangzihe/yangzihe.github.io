@@ -31,7 +31,7 @@ nav ul {
 
 .site-navigation li a[href] {
     color: white;
-    transition: .2s all;
+    transition: .4s all;
 }
 
 .site-navigation li a[href]:hover {
@@ -93,17 +93,27 @@ body, html {
 p {
     color: black;
     font-family: "freight-text-pro";
-    line-height: 1.5em;
+    line-height: 2em;
+    font-size: 18px;
+    margin-top: 22px;
+    margin-bottom: 22px;
 }
 
 p a {
     font-family: "freight-text-pro";
     text-decoration: none;
+    border-bottom: solid 1px black;
     color: black;
 }
 
+p a[href] {
+    padding-bottom: 1px;
+}
+
 p a:hover {
-    text-decoration: underline;
+    color: #5295d4;
+    transition: all 0.4s ease 0s;
+    border-color: #5295d4;
 }
 
 /*=========================
@@ -113,6 +123,7 @@ p a:hover {
 .wrapper {
     margin-right: auto;
     margin-left: auto;
+    padding-top: 60px;
     width: 800px;
 }
 
@@ -120,11 +131,10 @@ p a:hover {
     font-family: "jaf-bernino-sans";
     letter-spacing: -0.02em;
     font-size: 35px;
-    font-weight: 900;
-    margin-top: 30px;
-    margin-bottom: 0;
+    font-weight: 500;
+    margin-bottom: 10px;
     color: black;
-    text-align: left;
+    text-align: center;
 }
 
 .summary {
@@ -137,11 +147,9 @@ p a:hover {
 
 .date {
     font-family: "jaf-bernino-sans";
-    margin-top: 0px;
-    margin-bottom: 30px;
-    font-size: 14px;
-    color: black;
-    text-align: left;
+    color: rgb(149, 153, 156);
+    text-align: center;
+    margin-bottom: 40px;
 }
 
 .tags-line {

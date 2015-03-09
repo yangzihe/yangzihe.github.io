@@ -1,6 +1,5 @@
 ---
 layout: post-header
-excerpt: ""
 title: "Transitioning between views in iOS"
 tags: [iOS Developemnt, Xcode]
 ---

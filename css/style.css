@@ -32,7 +32,7 @@ nav ul {
 .site-navigation li a[href] {
     /*color: #59323C;*/
     color: white;
-    transition: .2s all;
+    transition: .4s all;
 }
 
 .site-navigation li a[href]:hover {
@@ -76,13 +76,6 @@ header ul li a[href] {
 
 }
 
-.small-text{
-    margin-top: 0;
-    font-size: 10px;
-    color: white;
-    line-height: 1em;
-}
-
 .description {
     font-size: 14px;
     color: white;
@@ -120,10 +113,17 @@ p a {
     font-family: "Source Sans Pro";
     text-decoration: none;
     color: black;
+    border-bottom: solid 1px black;
+}
+
+p a[href] {
+    padding-bottom: 1px;
 }
 
 p a:hover {
-    text-decoration: underline;
+    color: #5295d4;
+    transition: all 0.4s ease 0s;
+    border-color: #5295d4;
 }
 
 /*=========================
@@ -137,14 +137,15 @@ p a:hover {
     font-weight: 400;
     color: black;
     text-align: center;
-    margin-bottom: 0;
+    margin-top: 60px;
+    margin-bottom: 40px;
 }
 
 .content-paragraph {
     margin-left: auto;
     margin-right: auto;
     text-align: left;
-    width: 600px;
+    width: 800px;
 }
 
 .post-list span {

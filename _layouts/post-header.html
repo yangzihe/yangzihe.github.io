@@ -17,8 +17,8 @@
           <div class="post-title">
             {{ page.title }}
           </div>
-          <div class="summary">
-            {{ page.excerpt }}
+          <div class="date">
+            {{ page.date | date: "%B %d, %Y"}}
           </div>
           {{ content }}
         </div>

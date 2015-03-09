@@ -1,7 +1,6 @@
 ---
 layout: post-header
-excerpt: ""
-title: "First Open Source Contribution"
+title: "My First Open Source Contribution"
 tags: [Reddit Enhancement Suite, Javascript, Open Source]
 ---
 

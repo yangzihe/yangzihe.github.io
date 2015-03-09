@@ -2,8 +2,6 @@
 layout: post-header
 title: "Hello World"
 tags: [first post, IT'S LIVE]
-excerpt: "To the start of a million possibilities"
-permalink: '/blog/:title/'
 ---
 
 Without further ado, I present—*drumroll*—my personal website! First off, credit goes to one of my close friends, Gabe Ruiz, who convinced me to build my site from scratch (well almost) instead of using Bootstrap or finding a premade template—which was admittedly really tempting at first because there are so many good looking templates out there. But after all this work, I realized there's nothing quite like the satisfaction of knowing that all the things displayed on this webpage is your code: every div, every block of text, every heading etc.
