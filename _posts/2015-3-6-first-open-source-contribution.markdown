@@ -2,7 +2,7 @@
 layout: post-header
 title: "My First Open Source Contribution"
 tags: [Reddit Enhancement Suite, Javascript, Open Source]
-permalink: /blog/:title
+permalink: /blog/:title/
 ---
 
 Pretty happy with myself as I just finished making my first open source contribution ever! Reddit is a website that I frequent a lot, and [RES](http://redditenhancementsuite.com/) makes Reddit so much more convenient to use, so I thought it would be really cool to contribute to something that I, myself, am using.
