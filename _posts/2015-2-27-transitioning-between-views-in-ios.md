@@ -2,7 +2,6 @@
 layout: post-header
 title: "Transitioning between views in iOS"
 tags: [iOS Developemnt, Xcode]
-permalink: /blog/:title
 ---
 
 Watching tutorials on iOS development in Swift at the moment and just wanted to share what I learned. For apps that have more than one view, we add additional views to the Main.storyboard file by finding a ViewController object and dragging it onto the storyboard. After this, we need to dictate the logic such that we can arrive at the new view from the starting view. This is done via **segues**. To add a segue, ctrl + click from one view to the other. There are multiple types of segues, but the two main kinds are:
