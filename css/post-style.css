@@ -144,11 +144,26 @@ p a:hover {
     color: black;
 }
 
+pre {
+    background-color: #F7F7F7;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+hr {
+    width: 100px;
+    border-style: solid;
+    color: #D9D9D9;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
 .date {
     font-family: "jaf-bernino-sans";
     color: rgb(149, 153, 156);
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 32px;
 }
 
 .tags-line {

@@ -1,6 +1,6 @@
 ---
 layout: post-header
-title: "Transitioning between views in iOS"
+title: "Transitioning between Views in iOS"
 tags: [iOS Developemnt, Xcode]
 ---
 
@@ -13,4 +13,4 @@ Watching tutorials on iOS development in Swift at the moment and just wanted to 
 ---
 Cool shortcuts:
 
-Cmd + Shft + O: Open a finder/alfred-like dialog that can take you anywhere.
+* Cmd + Shft + O: Open a finder/alfred-like dialog that can take you anywhere.

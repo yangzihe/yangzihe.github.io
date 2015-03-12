@@ -142,10 +142,16 @@ p a:hover {
     width: 800px;
 }
 
-.post-list span {
+.date {
+    display: inline-block;
     float: right;
-    font-size: 12px;
-    vertical-align: -30px;
+    color: #929292;
+    padding-top: 5px;
+}
+
+.post-title {
+    display: inline-block;
+    font-size: 22px;
 }
 
 ul {
