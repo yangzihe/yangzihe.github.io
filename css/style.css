@@ -173,4 +173,7 @@ li a:hover {
     text-decoration: underline;
 }
 
+#learning li {
+    list-style-type: disc;
+}
 
